@@ -81,7 +81,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DBManager = void 0;
 var rlp = __importStar(require("rlp"));
 var sbr_util_1 = require("sbr-util");
-var block_1 = require("@ethereumjs/block");
+var block_1 = require("@sbr/block");
 var cache_1 = __importDefault(require("./cache"));
 var operation_1 = require("./operation");
 var level = require('level-mem');

@@ -1,6 +1,6 @@
 import { DBOp, DBTarget } from './operation'
 import { BN, rlp } from 'sbr-util'
-import { Block, BlockHeader } from '@ethereumjs/block'
+import { Block, BlockHeader } from '@sbr/block'
 import { bufBE8 } from './constants'
 
 /*

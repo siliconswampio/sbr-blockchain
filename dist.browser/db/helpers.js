@@ -4,7 +4,7 @@ exports.DBSaveLookups = exports.DBSetHashToNumber = exports.DBSetBlockOrHeader =
 var operation_1 = require("./operation");
 Object.defineProperty(exports, "DBOp", { enumerable: true, get: function () { return operation_1.DBOp; } });
 var sbr_util_1 = require("sbr-util");
-var block_1 = require("@ethereumjs/block");
+var block_1 = require("@sbr/block");
 var constants_1 = require("./constants");
 /*
  * This extra helper file serves as an interface between the blockchain API functionality

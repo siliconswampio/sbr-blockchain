@@ -25,7 +25,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DBManager = void 0;
 const rlp = __importStar(require("rlp"));
 const sbr_util_1 = require("sbr-util");
-const block_1 = require("@ethereumjs/block");
+const block_1 = require("@sbr/block");
 const cache_1 = __importDefault(require("./cache"));
 const operation_1 = require("./operation");
 const level = require('level-mem');

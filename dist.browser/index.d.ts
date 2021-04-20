@@ -1,7 +1,7 @@
 /// <reference types="node" />
 /// <reference types="bn.js" />
 import { Address, BN } from 'sbr-util';
-import { Block, BlockData, BlockHeader } from '@ethereumjs/block';
+import { Block, BlockData, BlockHeader } from '@sbr/block';
 import Ethash from '@ethereumjs/ethash';
 import Common from '@ethereumjs/common';
 import { DBManager } from './db/manager';

@@ -1,6 +1,6 @@
-[@ethereumjs/blockchain](README.md)
+[@sbr/blockchain](README.md)
 
-# @ethereumjs/blockchain
+# @sbr/blockchain
 
 ## Index
 

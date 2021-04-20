@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const debug_1 = require("debug");
 const semaphore_async_await_1 = __importDefault(require("semaphore-async-await"));
 const sbr_util_1 = require("sbr-util");
-const block_1 = require("@ethereumjs/block");
+const block_1 = require("@sbr/block");
 const ethash_1 = __importDefault(require("@ethereumjs/ethash"));
 const common_1 = __importDefault(require("@ethereumjs/common"));
 const manager_1 = require("./db/manager");

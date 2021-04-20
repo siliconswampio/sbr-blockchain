@@ -1,5 +1,5 @@
 import { BN, rlp } from 'sbr-util'
-import { Block, BlockHeader } from '@ethereumjs/block'
+import { Block, BlockHeader } from '@sbr/block'
 import Common from '@ethereumjs/common'
 import Blockchain from '../src'
 const level = require('level-mem')

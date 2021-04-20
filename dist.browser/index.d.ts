@@ -2,7 +2,7 @@
 /// <reference types="bn.js" />
 import { Address, BN } from 'sbr-util';
 import { Block, BlockData, BlockHeader } from '@sbr/block';
-import Ethash from '@ethereumjs/ethash';
+import Ethash from '@sbr/ethash';
 import Common from '@ethereumjs/common';
 import { DBManager } from './db/manager';
 import type { LevelUp } from 'levelup';

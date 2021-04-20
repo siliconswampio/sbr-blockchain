@@ -1,5 +1,5 @@
 import * as rlp from 'rlp'
-import { Address, BN } from 'ethereumjs-util'
+import { Address, BN } from 'sbr-util'
 import {
   Block,
   BlockHeader,

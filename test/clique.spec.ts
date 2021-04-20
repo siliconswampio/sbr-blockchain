@@ -1,6 +1,6 @@
 import { Block } from '@ethereumjs/block'
 import Common from '@ethereumjs/common'
-import { Address, BN } from 'ethereumjs-util'
+import { Address, BN } from 'sbr-util'
 import tape from 'tape'
 import Blockchain from '../src'
 import { CLIQUE_NONCE_AUTH, CLIQUE_NONCE_DROP } from '../src/clique'

@@ -1,4 +1,4 @@
-import { Address, BN } from 'ethereumjs-util'
+import { Address, BN } from 'sbr-util'
 
 // Clique Signer State: [blockNumber, signers]
 export type CliqueSignerState = [BN, Address[]]

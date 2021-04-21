@@ -3,7 +3,7 @@
 import { Address, BN } from 'sbr-util';
 import { Block, BlockData, BlockHeader } from '@sbr/block';
 import Ethash from '@sbr/ethash';
-import Common from '@ethereumjs/common';
+import Common from '@sbr/common';
 import { DBManager } from './db/manager';
 import type { LevelUp } from 'levelup';
 declare type OnBlock = (block: Block, reorg: boolean) => Promise<void> | void;

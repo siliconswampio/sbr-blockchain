@@ -7,7 +7,7 @@ import {
   BlockHeaderBuffer,
   BlockBodyBuffer,
 } from '@sbr/block'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import Cache from './cache'
 import { DatabaseKey, DBOp, DBTarget, DBOpData } from './operation'
 

@@ -20,7 +20,7 @@ Please note that the default HF is still set to `istanbul`. You therefore need t
 
 ```typescript
 import Blockchain from '@ethereumjs/blockchain'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 const common = new Common({ chain: 'mainnet', hardfork: 'berlin' })
 const blockchain = await Blockchain.create({ common })
 ```
@@ -29,7 +29,7 @@ const blockchain = await Blockchain.create({ common })
 
 If you are using this library in conjunction with other EthereumJS libraries make sure to minimally have the following library versions installed for typed transaction support:
 
-- `@ethereumjs/common` `v2.2.0`
+- `@sbr/common` `v2.2.0`
 - `@ethereumjs/tx` `v3.1.0`
 - `@ethereumjs/block` `v3.2.0`
 - `@ethereumjs/blockchain` `v5.2.0`

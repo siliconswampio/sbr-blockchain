@@ -1,5 +1,5 @@
 import { Block } from '@sbr/block'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Address, BN } from 'sbr-util'
 import tape from 'tape'
 import Blockchain from '../src'

@@ -1,5 +1,5 @@
 import { BN } from 'sbr-util'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Block, BlockHeader, BlockOptions } from '@sbr/block'
 import tape from 'tape'
 import Blockchain from '../src'

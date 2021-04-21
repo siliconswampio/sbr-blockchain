@@ -1,4 +1,4 @@
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Block } from '@sbr/block'
 import { Address, BN } from 'sbr-util'
 import tape from 'tape'

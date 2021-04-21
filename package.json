@@ -29,8 +29,8 @@
   },
   "author": "",
   "dependencies": {
-    "@ethereumjs/common": "^2.2.0",
     "@sbr/block": "git+https://github.com/siliconswampio/sbr-block.git",
+    "@sbr/common": "git+https://github.com/siliconswampio/sbr-common.git",
     "@sbr/ethash": "git+https://github.com/siliconswampio/sbr-ethash.git",
     "@types/debug": "^4.1.5",
     "debug": "^4.3.1",

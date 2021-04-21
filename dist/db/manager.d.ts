@@ -2,7 +2,7 @@
 /// <reference types="bn.js" />
 import { BN } from 'sbr-util';
 import { Block, BlockHeader, BlockBodyBuffer } from '@sbr/block';
-import Common from '@ethereumjs/common';
+import Common from '@sbr/common';
 import Cache from './cache';
 import { DatabaseKey, DBOp, DBTarget } from './operation';
 import type { LevelUp } from 'levelup';
